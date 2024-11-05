@@ -11,7 +11,7 @@ import PatientStat from "./PatientStat";
 import RecoveryStat from "./RecoveryStat";
 import TotalPatientsStat from "./TotalPatientsStat";
 import Reports from "./Reports";
-import DoctorList from "./DoctorList";
+import DoctorList from "../../Components/Doctor/DoctorList";
 import AdmittedPatients from "./AdmittedPatients";
 import RecentQuestions from "./RecentQuestions";
 import SideBar from "../../Components/SideBar";

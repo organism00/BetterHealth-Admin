@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <div className="flex justify-center flex-col">
-            <h1 className="text-indigo-500 font-bold text-sm lg:text-base w-[70px] lg:w-auto">
+          <h1 className="text-indigo-500 font-bold text-sm lg:text-base w-[70px] lg:w-auto">
               {userData.firstname} {userData.lastname}
             </h1>
             <p className="text-end font-thin text-[10px]">SUPER ADMIN</p>
