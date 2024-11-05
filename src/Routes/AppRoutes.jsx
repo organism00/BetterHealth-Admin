@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Routes, Route } from "react-router-dom";
-import { AdminDashboard, AdmittedPatients, DoctorList, PatientStat, RecentQuestions, RecoveryStat, Reports, TotalPatientsStat } from "../Pages";
+import { AdminDashboard, AdmittedPatients, DoctorList, NewDoctor, DoctorDetails, PatientStat, RecentQuestions, RecoveryStat, Reports, TotalPatientsStat } from "../Pages";
 import CheckTest from "../Pages/SuperAdmin/CheckTest";
 
 const AppRoutes = () => {
@@ -11,6 +11,8 @@ const AppRoutes = () => {
         <Route path="/" element={<AdminDashboard />} />
         <Route path="admittedPatient" element={<AdmittedPatients />} />
         <Route path="doctorlist" element={<DoctorList />} />
+        <Route path="newdoctor" element={<NewDoctor />} />
+        <Route path="doctordetails" element={<DoctorDetails />} />
         <Route path="patientstat" element={<PatientStat />} />
         <Route path="recentquestions" element={<RecentQuestions />} />
         <Route path="recoverystat" element={<RecoveryStat />} />
